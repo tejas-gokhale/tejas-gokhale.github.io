@@ -420,3 +420,7 @@ span.highlight {
 
 .title .date { float:right }
 .title .name { float:right }
+
+.boxed {
+  border: 1px solid green ;
+} 
