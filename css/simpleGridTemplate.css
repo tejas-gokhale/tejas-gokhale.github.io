@@ -373,7 +373,7 @@ footer {
 
 td.teaser {
   padding:0px;
-  width:35%;
+  width:30%;
   vertical-align:middle;
 }
 td.description {
@@ -384,18 +384,23 @@ td.description {
 }
 
 td.panel {
-  padding:20px;
-  width:60%;
-  vertical-align:top
+  padding:10px;
+  width:70%;
+  vertical-align:top;  
 }
 
 img.teaser {
-  max-width:300px;
+  max-width:250px;
   padding-bottom:10px;
 }
 
 p.description {
   text-align:justify;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
