@@ -49,7 +49,7 @@ a:hover {
 
 a.papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   color: #117011;
 }
@@ -79,14 +79,14 @@ a.papertitle {
 }
 .thumbnail {
 	max-width: 400px;
-	min-width: 360px;
+	min-width: 100px;
 	text-align: center;
 	float: left;
 	margin-top: 15px;
 	background-color: #F8F8F8;
 	padding-bottom: 20px;
-	margin-left: 1%;
-	margin-right: 1%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
 	border-radius: 3px;
 	padding-top: 20px;
 	
@@ -114,15 +114,15 @@ a.papertitle {
 	padding-left: 20px;
 }
 .thumbnail2 {
-	max-width: 600px;
-	min-width: 360px;
+	max-width: 800px;
+	min-width: 300px;
 	text-align: center;
 	float: left;
 	margin-top: 15px;
 	background-color: #F8F8F8;
 	padding-bottom: 20px;
-	margin-left: 1%;
-	margin-right: 1%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
 	border-radius: 3px;
 	padding-top: 20px;
 	
@@ -237,11 +237,9 @@ footer {
 
 .gallery .thumbnail2 .tag {
 	color: #5D5E5D;
-	padding-bottom: 4px;
-	padding-top: 4px;
 	text-align: left;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 1%;
+	padding-right: 1%;
 }
 
 /* Mobile */
@@ -371,10 +369,20 @@ footer {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
+tr.spaceUnder>td {
+  padding-left: 1%;
+}
+
 td.teaser {
-  padding:0px;
-  width:30%;
+  padding-left:1%;
+  padding-right:1%;
+  padding-top:10px;
+  padding-bottom:10px;
+  width:28%;
   vertical-align:middle;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background: #F0F0F8;
 }
 td.description {
   padding:0px;
@@ -384,9 +392,16 @@ td.description {
 }
 
 td.panel {
-  padding:10px;
-  width:70%;
-  vertical-align:top;  
+  padding-left: 2%;
+  padding-right:2%;
+  padding-top:10px;
+	padding-bottom:10px;
+  width:68%;
+  vertical-align:top;
+  text-align: right; 
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px; 
+  background: #F0F0F8;
 }
 
 img.teaser {
@@ -404,10 +419,9 @@ p.description {
 }
 
 
-
 venue {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   font-style: italic;  
   color: #FF0000;
   font-weight: 700;
