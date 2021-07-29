@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#ff473e">
-    <title>Papers</title>
-    <meta property="og:title" content="recipes">
+    <title>papers</title>
+    <meta property="og:title" content="papers">
     <meta property="og:locale" content="en_US">
-    <meta property="og:url" content="https://tejas-gokhale.github.io/papers/">
-    <meta property="og:site_name" content="recipes">
-    <link rel="canonical" href="https://tejas-gokhale.github.io/papers/">
+    <meta property="og:url" content="https://tejas-gokhale.github.io/">
+    <meta property="og:site_name" content="papers">
+    <link rel="canonical" href="https://tejas-gokhale.github.io/">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./favicon.png" type="image/png" />
     <link rel="manifest" href="./manifest.json">
@@ -42,7 +42,7 @@
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
       <h1>
-        <a href="./">Papers</a>
+        <a href="./">papers</a>
         <form id="search_form" autocomplete="off">
           <input id="search_input">
         </form>
@@ -56,7 +56,7 @@
         filter = filter.toLowerCase()
         return (file) => {
           const filePath = file.path;
-          const fileName = filePath.replace('.md', '').toLowerCase().replace(/-/g, '');
+          const fileName = filePath.replace('.pdf', '').toLowerCase().replace(/-/g, '');
           const isMarkdown = (/.md$/).test(filePath);
           const isNotLicense = filePath !== 'LICENSE.md';
           const isInFilter = filter.split(' ')
@@ -66,7 +66,7 @@
       }
       // Match by closest to start of word then earliest word
       const matchScore = (file, filter) => {
-        const fileWords = file.name.replace('.md', '').toLowerCase().split('-');
+        const fileWords = file.name.replace('.pdf', '').toLowerCase().split('-');
         filter = filter.toLowerCase()
         let wordIndex;
         let letterPosition;
@@ -90,7 +90,7 @@
       const updateList = (data, filter = '') => {
         let htmlString = '';
         for (let file of data.filter(filterFiles(filter)).sort(sortFiles(filter))) {
-          const fileName = file.path.replace('.md', '');
+          const fileName = file.path.replace('.pdf', '');
           const fileDisplayName = fileName.split('-').join(' ');
           htmlString += `<li><a href="${fileName}">${fileDisplayName}</a></li>`;
         }
@@ -100,7 +100,7 @@
       const navigateToFile = (data, filter = '') => {
         files = data.filter(filterFiles(filter));
         if (files.length === 1) {
-          const fileName = files[0].path.replace('.md', '');
+          const fileName = files[0].path.replace('.pdf', '');
           document.location = fileName;
         }
       }
