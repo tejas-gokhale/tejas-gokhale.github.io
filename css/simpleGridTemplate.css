@@ -208,6 +208,16 @@ footer {
 	padding-right: 20px;
 }
 
+.gallery .thumbnail .small {
+	color: #5D5E5D;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 13px;
+}
+
 .gallery .thumbnail2 .tag {
 	color: #5D5E5D;
 	text-align: left;
