@@ -51,7 +51,7 @@ a.papertitle {
 	margin-bottom: 0px;
 }
 .thumbnail {
-	max-width: 380px;
+	max-width: 400px;
 	min-width: 100px;
 	text-align: center;
 	float: left;
@@ -87,7 +87,7 @@ a.papertitle {
 	padding-left: 20px;
 }
 .thumbnail2 {
-	max-width: 660px;
+	max-width: 750px;
 	min-width: 100px;
 	text-align: center;
 	float: left;
