@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Body */
 body {
-	font-family: Helvetica, Arial, sans-serif; 
+	font-family: Arial, sans-serif; 
 	/*background-color: #FFFFFF;*/
 	margin: 0;
 	/*color: #5D5E5D;*/
@@ -42,7 +42,7 @@ a:hover {
 }
 
 a.papertitle {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   color: #117011;
@@ -74,7 +74,7 @@ a.papertitle {
 	padding-top: 20px;
 	padding-left:  32px;
 	padding-right:  32px;
-  font-family: Helvetica, Arial, sans-serif;	
+  font-family: Arial, sans-serif;	
 }
 .gallery .thumbnail h4 {
 	margin-top: 5px;
@@ -337,7 +337,7 @@ p.description {
 
 
 venue {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 13px;
   font-style: italic;  
   color: #FF0000;
@@ -345,7 +345,7 @@ venue {
 }
 
 author {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 14px;
   color: #FFFFFF;
 }
