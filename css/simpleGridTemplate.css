@@ -29,7 +29,10 @@ header {
 
 ul,ol{ margin-top:0; margin-bottom:0 }
 
-
+li
+{
+    list-style-position:inside;
+}
 a {
   color: #1772d0;
   text-decoration: none;
