@@ -329,6 +329,14 @@ td.icon {
     background-repeat: no-repeat;
   }
 
+td.venue {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-style: italic;  
+  color: #FF0000;
+  font-weight: 700;
+}
+
 p.description {
   text-align:justify;
   padding-bottom: 4px;
