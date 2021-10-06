@@ -378,3 +378,16 @@ span.highlight {
 .alignright {
 	float: right;
 }
+
+@media print{
+	table {
+    display:inline;
+	}
+/*	script, style { 
+	    display:none; 
+	}*/
+	div , img, a {
+	    break-inside:avoid;
+	}
+
+	}
