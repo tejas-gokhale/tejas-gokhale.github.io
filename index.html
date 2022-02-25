@@ -183,10 +183,99 @@
       
       <table style="border-collapse:separate; border-spacing:0 1em; width: 98%; margin-left: auto; margin-right: auto;">
         <tbody>
+          <!-- SDRO -->
+          <tr>
+            <td class="teaser">
+              <a href=""><img src="images/example_nlvr_violin.png" class="teaser"></a>
+            </td>
+            <td class="panel">
+              <a href="https://arxiv.org/abs/2110.07165" class="papertitle">Semantically Distributed Robust Optimization for Vision-and-Language Inference</a>
+              <br/><venue>ACL Findings 2022</venue>
+              <br>
+              <b>Tejas Gokhale</b>,
+              Abhishek Chaudhary, 
+              <a href="https://pratyay-banerjee.github.io/">Pratyay Banerjee</a>,
+              <a href="https://www.public.asu.edu/~cbaral/">Chitta Baral</a>,
+              <a href="https://yezhouyang.engineering.asu.edu/">Yezhou Yang</a>,
+              <br>
+              <a href="https://arxiv.org/pdf/2110.07165.pdf" style="color:magenta;">[Paper]</a>
+              <p class="tag" style="text-align:justify">
+                SDRO: a distributed robust optimization method that operates with linguistic transformations of sentence inputs, SISP: a suit of semantics-inverting (SI) and semantics-preserving (SP) linguistic transformations, and an ensembling technique for vision-and-language inference.
+              </p>
+            </td>
+          </tr>
+          <!-- GenRobDataMod -->
+          <tr>
+            <td class="teaser">
+              <a href=""><img src="" class="teaser"></a>
+            </td>
+            <td class="panel">
+              <a href="" class="papertitle"><i>Generalized but not Robust?</i> Comparing the Effects of Data Modification Methods on Out-of-Domain Generalization and Adversarial Robustness</a>
+              <br/><venue>ACL Findings 2022</venue>
+              <br>
+              <b>Tejas Gokhale</b>, 
+              <a href="https://luomancs.github.io/">Man Luo</a>, 
+              <a href="https://scholar.google.com/citations?user=-7LK2SwAAAAJ">Swaroop Mishra</a>,
+              <a href="https://www.linkedin.com/in/bhavdeep-singh-sachdeva-767a3b7a">Bhavdeep Singh Sachdeva</a>,
+              <a href="https://www.public.asu.edu/~cbaral/">Chitta Baral</a>
+              <br>
+              <a href="" style="color:magenta;">coming soon</a>
+              <p class="tag" style="text-align:justify">
+                In this work, we conduct a comprehensive study of common data modification strategies and evaluate not only their in-domain and OOD performance, but also their adversarial robustness (AR).
+                <!-- We also present results on a two-dimensional synthetic dataset to visualize and gain grounded insights about the effect of each method on the training distribution. -->
+                <!-- Our findings suggest that more data (either via additional datasets or data augmentation) benefits both OOD accuracy and AR. -->
+                <!-- However, data filtering (previously shown to improve OOD accuracy on NLI) hurts OOD accuracy on QA and IC. -->
+                This work serves as an empirical study towards understanding the relationship between generalizing to unseen domains and defending against adversarial perturbations.
+              </p>
+            </td>
+          </tr>
+          <!-- PHL -->
+          <tr>
+            <td class="teaser">
+              <a href=""><img src="images/phl_settings.png" class="teaser"></a>
+            </td>
+            <td class="panel">
+              <a href="https://arxiv.org/abs/2110.08438" class="papertitle">Unsupervised Natural Language Inference Using PHL Triplet Generation</a>
+              <br/><venue>ACL Findings 2022</venue>
+              <br>
+              <a href="https://nrjvarshney.github.io/">Neeraj Varshney</a>,
+              <a href="https://pratyay-banerjee.github.io/">Pratyay Banerjee</a>,
+              <b>Tejas Gokhale</b>,
+              <a href="https://www.public.asu.edu/~cbaral/">Chitta Baral</a>
+              <br>
+              <a href="https://arxiv.org/pdf/2110.08438.pdf" style="color:magenta;">[Paper]</a>
+              <p class="tag" style="text-align:justify">
+                We investigate NLI under three challenging settings: PH, P, and NPH that differ in the extent of unlabeled data available for learning. 
+                As a solution, we propose a procedural data generation approach that leverages a set of sentence transformations to collect PHL (Premise, Hypothesis, Label) triplets for training NLI models, bypassing the need for human-annotated training datasets
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="teaser">
+              <a href=""><img src="images/bionr_qg.png" class="teaser"></a>
+            </td>
+            <td class="panel">
+              <a href="https://arxiv.org/abs/2201.07745" class="papertitle">Improving Biomedical Information Retrieval with Neural Retrievers</a>
+              <br/><venue>AAAI 2022</venue>
+              <br>
+              <a href="https://pratyay-banerjee.github.io/">Man Luo</a>,
+              <a href=""> Arindam Mitra </a>,
+              <b>Tejas Gokhale</b>,
+              <a href="https://www.public.asu.edu/~cbaral/">Chitta Baral</a>
+              <br>
+              <a href="https://arxiv.org/pdf/2201.07745.pdf" style="color:magenta;">[Paper]</a>
+              <p class="tag" style="text-align:justify">
+                We seek to improve information retrieval (IR) using neural retrievers (NR) in the biomedical domain, using a three-pronged approach. (1) a template-based question generation method, (2) two novel pre-training tasks that are closely aligned to the downstream task of information retrieval, (3) the ``Poly-DPR'' model which encodes each context into multiple context vectors. 
+              </p>
+            </td>
+          </tr>
+
           <tr>
             <td class="teaser">
               <a href=""><img src="images/spatial_vqa.png" class="teaser"></a>
             </td>
+
             <td class="panel">
               <a href="https://arxiv.org/abs/2109.01934" class="papertitle">Weakly Supervised Relative Spatial Reasoning for Visual Question Answering</a>
               <br/><venue>ICCV 2021</venue>
@@ -444,8 +533,8 @@
               <td>
                 Adela Shao (2021- ),&nbsp;
                 Maitreya Patel (2021- ),&nbsp;
-                Abhishek Chaudhary (2020-2021 AY) &rarr; Amazon,&nbsp;
-                Arnav Chakravarthy (2020-2021 AY) &rarr; VMWare,&nbsp;
+                <a href="https://www.linkedin.com/in/abhishek-chaudhary-56b833109">Abhishek Chaudhary</a> (2020-2021 AY) &rarr; Amazon,&nbsp;
+                <a href="https://www.linkedin.com/in/arnav-chakravarthy">Arnav Chakravarthy</a> (2020-2021 AY) &rarr; VMWare,&nbsp;
                 <a href="https://www.linkedin.com/in/aadhavan-sadasivam/">Aadhavan Sadasivam</a> (2019-20 AY) &&rarr; PayPal,&nbsp;
                 Shivakshit Patri (2019 Spring) &rarr; Amazon
               </td>
