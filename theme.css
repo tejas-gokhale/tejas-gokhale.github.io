@@ -1,0 +1,53 @@
+img
+{
+border: 2px solid;
+width:  100%;
+}
+
+hr.pink {
+  border-top: 1px solid;
+  border-top-color: #977c87;
+  margin: 0.1em auto;
+}
+
+hr.red {
+  border-top: 1px solid;
+  border-top-color: #ba8d82;
+  margin: 0.1em auto;
+}
+
+hr.orange {
+  border-top: 1px solid;
+  border-top-color: #c6a78a;
+  margin: 0.1em auto;
+}
+
+hr.yellow {
+  border-top: 1px solid;
+  border-top-color: #cac68c;
+  margin: 0.1em auto;
+}
+
+hr.green {
+  border-top: 1px solid;
+  border-top-color: #87b086;
+  margin: 0.1em auto;
+}
+
+hr.blue {
+  border-top: 1px solid;
+  border-top-color: #7989a2;
+  margin: 0.1em auto;
+}
+
+div.page {
+	background-color: #f9f7f6;
+}
+
+::-moz-selection { /* Code for Firefox */
+  background: #d7c7c1;
+}
+
+::selection {
+  background: #d7c7c1;
+}
