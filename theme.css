@@ -6,7 +6,7 @@ width:  100%;
 
 hr.pink {
   border-top: 1px solid;
-  border-top-color: #977c87;
+  border-top-color: #ffffff;
   margin: 0.1em auto;
 }
 
@@ -41,7 +41,7 @@ hr.blue {
 }
 
 div.page {
-	background-color: #f9f7f6;
+	background-color: #ffffff;
 }
 
 ::-moz-selection { /* Code for Firefox */
