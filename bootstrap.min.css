@@ -5153,6 +5153,11 @@ a.badge-success:focus {
 	background-color: #726080
 }
 
+.badge-code {
+	color: #f9f7f6;
+	background-color: #157b2c
+}
+
 a.badge-info:focus,
 a.badge-info:hover {
 	color: #f9f7f6;
