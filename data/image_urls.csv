@@ -1,7 +1,6 @@
-﻿https://s3.amazonaws.com/cv-demo-images/one-bird.jpg
-https://s3.amazonaws.com/cv-demo-images/one-bird.jpg
-https://s3.amazonaws.com/cv-demo-images/one-bird.jpg
-https://s3.amazonaws.com/cv-demo-images/one-bird.jpg
-https://s3.amazonaws.com/cv-demo-images/one-bird.jpg
-https://s3.amazonaws.com/cv-demo-images/one-bird.jpg
-https://s3.amazonaws.com/cv-demo-images/one-bird.jpg
+﻿image_url,object_a,object_b
+https://s3.amazonaws.com/cv-demo-images/one-bird.jpg,giraffe,bicycle
+https://s3.amazonaws.com/cv-demo-images/one-bird.jpg,bicycle,car
+https://s3.amazonaws.com/cv-demo-images/one-bird.jpg,car,elephant
+https://s3.amazonaws.com/cv-demo-images/one-bird.jpg,elephant,cake
+https://s3.amazonaws.com/cv-demo-images/one-bird.jpg,cake,flower
