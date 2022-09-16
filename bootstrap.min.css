@@ -212,6 +212,14 @@ table {
 	border-collapse: collapse
 }
 
+#table_id {
+  display: block;
+}
+
+#table_id td {
+  display: inline-block;
+}
+
 caption {
 	padding-top: .75rem;
 	padding-bottom: .75rem;
@@ -520,6 +528,22 @@ mark {
 	color: #7c5c50
 }
 
+.logo {
+	width:80px;
+	height:80px;
+	border:0;
+}
+
+.teaser {
+	text-decoration:none;
+	color:inherit;
+}
+
+.tag {
+	text-align:justify;
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
 code {
 	font-size: 87.5%;
 	color: #b38085;
