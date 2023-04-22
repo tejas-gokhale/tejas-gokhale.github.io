@@ -151,13 +151,11 @@ sup {
 a {
 	color: #2874A6;
 	text-decoration: none; 
-/*	underline;*/
 	background-color: transparent
 }
 
 a:hover {
 	color: #4e3a32;
-	text-decoration: underline
 }
 
 a:not([href]) {
@@ -9973,9 +9971,6 @@ a.text-dark:hover {
 	::before {
 		text-shadow: none!important;
 		box-shadow: none!important
-	}
-	a:not(.btn) {
-		text-decoration: underline
 	}
 	abbr[title]::after {
 		content: " (" attr(title) ")"
