@@ -5177,6 +5177,16 @@ a.badge-success:focus {
 	background-color: #157b2c
 }
 
+.badge-video {
+	color: #f9f7f6;
+	background-color: #dc3545;
+}
+
+.badge-web {
+	color: #f9f7f6;
+	background-color: indigo;
+}
+
 a.badge-info:focus,
 a.badge-info:hover {
 	color: #f9f7f6;
