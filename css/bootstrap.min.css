@@ -441,7 +441,7 @@ hr {
 .small,
 small {
 	font-size: 80%;
-	font-weight: 400
+	font-weight: inherit;
 }
 
 .mark,
@@ -1666,7 +1666,7 @@ pre code {
 }
 
 .table tbody+tbody {
-	border-top: 2px solid #c3aba2
+	border-top: 2px solid #c3aba2;
 }
 
 .table-sm td,
@@ -10155,4 +10155,17 @@ a.name {
   max-height: 120px;
   height: 120px;
   width: 120px;
+}
+
+venue {
+  font-size: 13px;
+  font-style: italic;  
+  color: #dc3545;
+  font-weight: 700;
+}
+
+
+a.author, author {
+/*  color: #000000;*/
+  font-family:monospace;
 }
