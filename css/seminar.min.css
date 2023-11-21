@@ -523,7 +523,7 @@ mark {
   display: block;
 	border: 1px solid black;
 	border-radius: .5rem;
-	max-width: 100%;
+	max-width: 160px;
 	height: auto;
 	box-shadow: 0px 6px 4px #bababa;;
 }
@@ -537,6 +537,17 @@ mark {
 	max-width: 100%;
 	height: auto;
 	box-shadow: 0px 0px 0px #bababa;;
+}
+
+.date-center {
+	/* Use a flexbox layout */
+	display: flex;
+	
+	/* Make a horizontal flexbox (the default) */
+	flex-direction: column;
+	
+	/* The important part: vertically center the items */
+/*	align-items: center;*/
 }
 
 .box-center {
