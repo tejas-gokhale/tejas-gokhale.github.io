@@ -10169,3 +10169,8 @@ a.author, author {
 /*  color: #000000;*/
   font-family:monospace;
 }
+
+ul {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
