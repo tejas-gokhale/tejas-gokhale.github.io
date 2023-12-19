@@ -10174,3 +10174,7 @@ ul {
     margin-top: 3px;
     margin-bottom: 3px;
 }
+
+details > summary {
+	color: #2874A6;
+}
