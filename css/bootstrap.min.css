@@ -10157,6 +10157,7 @@ a.name {
 }
 
 .profile_img {
+	border: 1px solid;
   object-fit: cover;
   max-width: 120px;
   max-height: 120px;
@@ -10184,4 +10185,17 @@ ul {
 
 details > summary {
 	color: #2874A6;
+}
+
+
+::selection {
+  background: #d7c7c1;
+}
+::-moz-selection { /* Code for Firefox */
+  background: #d7c7c1;
+}
+
+
+div.page {
+	background-color: #ffffff;
 }
