@@ -10199,3 +10199,9 @@ details > summary {
 div.page {
 	background-color: #ffffff;
 }
+
+
+.unhighlighted-link:link {color: black;}      /* unvisited link */
+.unhighlighted-link:visited {color: black;}   /* visited link */
+.unhighlighted-link:hover {color: black;}     /* mouse over link */
+.unhighlighted-link:active {color: black;}    /* selected link */
