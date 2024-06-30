@@ -524,16 +524,7 @@ mark {
 
 
 
-.logo {
-  object-fit: cover;
-  max-width: 200px;
-  max-height: 200px;
-  height: 200px;
-  width: 200px;
-  border: 0;
-  object-fit: contain;
-  margin:20px;
-}
+
 
 .teaser {
 	text-decoration:none;
@@ -10163,6 +10154,22 @@ a.name {
   max-height: 120px;
   height: 120px;
   width: 120px;
+}
+
+.logo {
+	width:200px; 
+	font-size:0.8em;  
+	float:left; 
+	margin-left:20px; 
+	margin-top:10px; 
+	text-align:center;
+}
+
+.logo_img {
+  border: 0;
+  object-fit: contain;
+  max-width: 180px;
+  margin:20px;
 }
 
 venue {
