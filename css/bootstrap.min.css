@@ -5200,6 +5200,11 @@ a.badge-success:focus {
 	background-color: #dc3545;
 }
 
+.badge-data {
+	color: #f9f7f6;
+	background-color: #f48f00;
+}
+
 .badge-web {
 	color: #f9f7f6;
 	background-color: indigo;
