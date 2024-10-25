@@ -33,7 +33,31 @@
 
 
     <div class="col-md-4">
-      <br/><img src="images/tejas/tg_hawaii.jpg" alt="Tejas Gokhale"/ style="max-width: 75%;">
+      <br/>
+      <!-- <img src="images/tejas/tg_photo_1.jpg" alt="Tejas Gokhale" class="portrait" style="max-width: 75%;"> -->
+      <div>
+        <img id="randomImage" alt="Tejas Gokhale" style="max-width: 75%;"/>
+      </div>
+      <script>
+        index = Math.floor(Math.random() * 2);
+        document.getElementById("randomImage").src = "images/tejas/tg_photo_" + index + ".jpg";
+      </script>
+      <!-- <script>
+        const images = [
+            'images/tejas/tg_photo_0.jpg',
+            'images/tejas/tg_photo_1.jpg'
+        ];
+
+        function getRandomImage() {
+            const randomIndex = Math.floor(Math.random() * images.length);
+            return images[randomIndex];
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const randomImage = getRandomImage();
+            document.getElementById('randomImage').src = randomImage;
+        });
+    </script> -->
       <br/>
       <br/>
       <p style="font-weight: 350;">
