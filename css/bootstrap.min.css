@@ -10233,3 +10233,24 @@ div.page {
 .unhighlighted-link:visited {color: black;}   /* visited link */
 .unhighlighted-link:hover {color: black;}     /* mouse over link */
 .unhighlighted-link:active {color: black;}    /* selected link */
+
+abbr[title] {
+  position: relative;
+  text-decoration: underline dotted;
+  cursor: help;
+}
+
+abbr[title]:focus::after,
+abbr[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background: #333;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  white-space: nowrap;
+  z-index: 10;
+}
